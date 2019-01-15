@@ -2,6 +2,7 @@
   "name": "rss-nodejs",
   "version": "1.0.0",
   "main": "index.js",
+  "bin":"app.js",
   "license": "MIT",
   "dependencies": {
     "feed": "^2.0.2",
@@ -10,6 +11,9 @@
   "scripts": {
     "rss": "node index.js > rss.xml && live-server --entry-file=rss.xml --no-browser",
     "app":"nodemon --exec yarn rss"
+  },
+  "pkg":{
+    "scripts": "**/*.js"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
