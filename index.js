@@ -3,13 +3,13 @@ var fs = require("fs")
 var feed = new RSS({
     title: 'paas 平台设计规划',
     description: '基于docker 平台设计',
-    feed_url: 'http://example.com/rss.xml',
-    site_url: 'http://example.com',
-    image_url: 'http://example.com/icon.png',
-    docs: 'http://example.com/rss/docs.html',
+    feed_url: 'http://feed.cnblogs.com/blog/u/161986/rss',
+    site_url: 'http://cnblogs.com/rongfengliang',
+    image_url: 'http://cnblogs.com/rongfengliang',
+    docs: 'http://cnblogs.com/rongfengliang',
     managingEditor: 'dalongrong',
     webMaster: 'Dylan Greene',
-    copyright: '2013 Dylan Greene',
+    copyright: '2013 dalongrong',
     language: 'en',
     categories: ['Category 1','Category 2','Category 3'],
     pubDate: 'May 20, 2012 04:00:00 GMT',
@@ -47,7 +47,7 @@ var feed = new RSS({
 feed.item({
     title:  '荣锋亮',
     description: 'use this for the content. It can include html.',
-    url: 'http://example.com/article4?this&that', // link to the item
+    url: 'http://cnblogs.com/rongfengliang', // link to the item
     guid: '1123', // optional - defaults to url
     categories: ['Category 1','Category 2','Category 3','Category 4'], // optional - array of item categories
     author: 'Guest Author', // optional - defaults to feed author property
