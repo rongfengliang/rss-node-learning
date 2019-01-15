@@ -2,3 +2,6 @@ Dockerfile
 node_moduels/**
 yarn.lock
 rss.xml
+rss-nodejs-macos
+rss-nodejs-win.exe
+rss-nodejs-linux

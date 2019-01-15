@@ -1,0 +1,8 @@
+FROM alpine:3.8
+RUN apk add libstdc++ libgcc
+WORKDIR /app
+ADD rss-nodejs /app/rss-nodejs
+LABEL NORE="just for test"
+LABEL AUTHOR="1141591465@qq.com"
+EXPOSE 8080
+CMD [ "./rss-nodejs" ]

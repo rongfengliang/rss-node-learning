@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:alpine
 WORKDIR /app
 COPY .  /app
 LABEL NORE="just for test"

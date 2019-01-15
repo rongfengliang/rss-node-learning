@@ -13,7 +13,8 @@
     "app":"nodemon --exec yarn rss"
   },
   "pkg":{
-    "scripts": "**/*.js"
+    "scripts": "**/*.js",
+    "assets": ["app.js","index.js"]
   },
   "devDependencies": {
     "live-server": "^1.2.1",
