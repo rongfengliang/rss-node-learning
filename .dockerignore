@@ -1,0 +1,4 @@
+Dockerfile
+node_moduels/**
+yarn.lock
+rss.xml
