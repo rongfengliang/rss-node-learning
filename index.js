@@ -1,8 +1,8 @@
 var RSS = require('rss');
 var fs = require("fs")
 var feed = new RSS({
-    title: 'paas 平台设计规划',
-    description: '基于docker 平台设计',
+    title: 'paas平台设计规划',
+    description: '基于docker 平台设计- 支撑服务',
     feed_url: 'http://feed.cnblogs.com/blog/u/161986/rss',
     site_url: 'http://cnblogs.com/rongfengliang',
     image_url: 'http://cnblogs.com/rongfengliang',

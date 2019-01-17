@@ -1,7 +1,7 @@
  version: "3"
  services:
     rss:
-      image: dalongrong/rssjs:1.0
+      image: dalongrong/rssjsapp:1.0
       ports:
       - "8080:8080"
       volumes:
